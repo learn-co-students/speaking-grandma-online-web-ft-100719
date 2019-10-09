@@ -1,13 +1,10 @@
-# Write a speak_to_grandma method.
+function sayHiToGrandma(string) {
+  if (string === string.toLowerCase()) {
+    return "I can't hear you!";
+}
+else if (string === string.toUpperCase()) {
+    return "YES INDEED!";
+} else if ('I love you, Grandma.') {
+  return 'I love you, too.'
+}
 
-# Whatever you say to grandma, she should respond with
-# HUH?! SPEAK UP, SONNY!
-# unless you shout it (type in all capitals).
-
-# If you shout, she can hear you (or at least she thinks so) 
-# and yells back
-
-# NO, NOT SINCE 1938!
-
-# However if you say 'I LOVE YOU GRANDMA!', she should respond with
-# 'I LOVE YOU TOO PUMPKIN!'
